@@ -21,10 +21,13 @@ export function TableC() {
         push('/movies')
     }
 
-    useEffect(() => {
+    function GetMovies() {
         console.log('get movies')
         getMovies()
-    }, [])
+    }
+
+    // eslint-disable-next-line
+    useEffect(GetMovies, [])
 
     return (
         <Fragment>
