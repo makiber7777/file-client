@@ -22,6 +22,7 @@ export function TableC() {
     }
 
     useEffect(() => {
+        console.log('get movies')
         getMovies()
     }, [])
 
