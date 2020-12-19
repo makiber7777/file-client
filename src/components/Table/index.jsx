@@ -23,7 +23,7 @@ export function TableC() {
 
     useEffect(() => {
         getMovies()
-    }, [getMovies])
+    }, [])
 
     return (
         <Fragment>
